@@ -110,5 +110,7 @@ while not SENTINEL:
         string = string.replace(strreplace,(symbols[e]))
         keydict[symbols[e]] = strreplace
         e += 1
+print("")
 print(string)
+print("")
 print(keydict)
